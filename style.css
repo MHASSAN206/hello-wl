@@ -1,0 +1,44 @@
+/* external style sheet */
+ 
+body {background-color: rgb(240, 254, 231);}
+
+
+
+
+
+* { border: 0.5px solid rgb(0, 0, 0)}
+
+p {
+    padding: 0%;
+}
+
+ul {
+    background-color: rgb(231, 17, 149);
+}
+
+
+nav ul {background-color:goldenrod;}
+
+section {display: inline-block;
+width: 30%;
+height: 200px;
+
+}
+
+/* ID - unique value given to an element*/
+#hero-img {width: 50%;}
+
+/* CLASS - away to group similar elements together */
+
+.lower {
+    background-color: goldenrod;}
+
+
+nav ul li a {
+    list-style: none;
+   display: inline-block;
+}
+nav ul li {
+    color: rgb(0, 0, 0);
+    display:block;
+}
