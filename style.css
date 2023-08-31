@@ -1,24 +1,30 @@
 /* external style sheet */
  
-body {background-color: rgb(240, 254, 231);}
+body {background-color:
+    #ebad4e;}
 
 
 
 
 
-* { border: 0.5px solid rgb(0, 0, 0)}
+* { border: 0px solid rgb(0, 0, 0)}
 
 p {
     padding: 0%;
 }
 
 ul {
-    background-color: rgb(231, 17, 149);
+    background-color: #0275dd;
+    
+        padding: 4%;
+       
+        list-style: none;
+
 }
 
 
-nav ul {background-color:goldenrod;}
-
+nav ul li {;
+list-style: none;}
 section {display: inline-block;
 width: 30%;
 height: 200px;
@@ -31,14 +37,27 @@ height: 200px;
 /* CLASS - away to group similar elements together */
 
 .lower {
-    background-color: goldenrod;}
-
-
-nav ul li a {
-    list-style: none;
-   display: inline-block;
+    background-color: 0275dd;
+list-style: inside;
+font-size: x-large;
 }
+.lowerr {
+    background-color: #9400e7;
+    list-style: inside;
+font-size: x-large;
+}
+.lowerrr {
+    background-color: #5cb55c;
+    list-style: inside;
+font-size: x-large;
+}
+
 nav ul li {
-    color: rgb(0, 0, 0);
-    display:block;
+    display:inline-block;
+    text-align: center;
+    font-size: xx-large;
+    padding: 1%;
+    list-style: none;
+
+    
 }
